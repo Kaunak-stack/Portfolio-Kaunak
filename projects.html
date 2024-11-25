@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Kaunak Bhattacharya</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="profile-image">
+                    <img src="C:\Users\pc\OneDrive\Desktop\Portfolio Kaunak\assests\Profile.jpg">
+                </div>
+                <h3>Kaunak Bhattacharya</h3>
+                <p>Software Developer</p>
+            </div>
+            <nav class="sidebar-nav">
+                <a href="index.html"><i class="fas fa-home"></i> Home</a>
+                <a href="skills.html"><i class="fas fa-laptop-code"></i> Skills</a>
+                <a href="projects.html" class="active"><i class="fas fa-project-diagram"></i> Projects</a>
+                <a href="contact.html"><i class="fas fa-envelope"></i> Contact</a>
+            </nav>
+            <div class="social-links">
+                <a href="https://github.com/Kaunak-stack" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/kaunak-bhattacharya-553886258/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <section class="projects">
+                <h2>My Projects</h2>
+                <div class="projects-container">
+                    <!-- Harmonic Flow Music App -->
+                    <div class="project-button" onclick="toggleProjectDescription('harmonic')">
+                        <div class="project-icon">
+                            <i class="fas fa-music"></i>
+                        </div>
+                        <div class="project-title">
+                            <h3>Harmonic Flow Music App</h3>
+                            <a href="https://github.com/Kaunak-stack/Harmonic-Flow-Music-App-" target="_blank" class="github-link">
+                                <i class="fab fa-github"></i> View Project
+                            </a>
+                        </div>
+                    </div>
+                    <div id="harmonic" class="project-description">
+                        <p>The Harmonic Flow Music App is an innovative educational platform that combines augmented reality (AR) technology with music creation to teach fundamental computing concepts. This project represents a unique approach to computer science education, making complex programming concepts more accessible through musical interaction.</p>
+                        <p>Key Features:</p>
+                        <ul>
+                            <li>Interactive AR Interface: Users can create and manipulate musical elements in a 3D space</li>
+                            <li>Educational Components: Each musical interaction is tied to a programming concept</li>
+                            <li>Real-time Feedback: Immediate audio-visual feedback for user actions</li>
+                            <li>Cross-platform Compatibility: Works across multiple devices and operating systems</li>
+                        </ul>
+                        <p>Technologies Used: Augmented Reality, Audio Processing, Interactive Learning Systems</p>
+                    </div>
+
+                    <!-- Java Data Structures -->
+                    <div class="project-button" onclick="toggleProjectDescription('java-ds')">
+                        <div class="project-icon">
+                            <i class="fas fa-code-branch"></i>
+                        </div>
+                        <div class="project-title">
+                            <h3>Java Data Structures</h3>
+                            <a href="https://github.com/Kaunak-stack/Java-DataStructures-master" target="_blank" class="github-link">
+                                <i class="fab fa-github"></i> View Project
+                            </a>
+                        </div>
+                    </div>
+                    <div id="java-ds" class="project-description">
+                        <p>A comprehensive implementation of various data structures in Java, this project serves as both a learning resource and a practical toolkit for understanding complex data structures and algorithms. The repository includes detailed implementations of fundamental and advanced data structures, complete with documentation and usage examples.</p>
+                        <p>Implemented Data Structures:</p>
+                        <ul>
+                            <li>Arrays and Dynamic Arrays</li>
+                            <li>Linked Lists (Singly and Doubly)</li>
+                            <li>Trees (Binary, AVL, Red-Black)</li>
+                            <li>Graphs and Graph Algorithms</li>
+                            <li>Hash Tables and Hash Maps</li>
+                        </ul>
+                        <p>Each implementation includes thorough documentation, time complexity analysis, and practical use cases.</p>
+                    </div>
+
+                    <!-- Hospital Management System -->
+                    <div class="project-button" onclick="toggleProjectDescription('hospital')">
+                        <div class="project-icon">
+                            <i class="fas fa-hospital"></i>
+                        </div>
+                        <div class="project-title">
+                            <h3>Hospital Management System</h3>
+                            <a href="https://github.com/Kaunak-stack/Hospital-Managment-System-" target="_blank" class="github-link">
+                                <i class="fab fa-github"></i> View Project
+                            </a>
+                        </div>
+                    </div>
+                    <div id="hospital" class="project-description">
+                        <p>The Hospital Management System is a comprehensive software solution designed to streamline healthcare facility operations. Built with Python and SQLite, this system offers a complete suite of tools for managing patient information, doctor schedules, and hospital resources.</p>
+                        <p>Core Features:</p>
+                        <ul>
+                            <li>Patient Management: Registration, medical history, appointment scheduling</li>
+                            <li>Doctor Information System: Schedules, specializations, availability</li>
+                            <li>Appointment Management: Booking, rescheduling, cancellation</li>
+                            <li>Database Integration: Secure storage and retrieval of medical records</li>
+                            <li>User-friendly Interface: Built with Tkinter for easy navigation</li>
+                        </ul>
+                        <p>Technologies Used: Python, SQLite, Tkinter GUI Framework</p>
+                    </div>
+
+                    <!-- Chemistry Encoder App -->
+                    <div class="project-button" onclick="toggleProjectDescription('chemistry')">
+                        <div class="project-icon">
+                            <i class="fas fa-flask"></i>
+                        </div>
+                        <div class="project-title">
+                            <h3>Chemistry Encoder App</h3>
+                            <a href="https://github.com/Kaunak-stack/Chemistry-Encoder-App-" target="_blank" class="github-link">
+                                <i class="fab fa-github"></i> View Project
+                            </a>
+                        </div>
+                    </div>
+                    <div id="hospital" class="project-description">
+                        <p>The Chemistry Encoder App is an innovative application that combines chemistry education with cryptography. This unique project transforms regular passwords into chemical formulas and symbols, creating an educational tool that makes learning chemistry more engaging while introducing basic concepts of encryption.</p>
+                        <p>Key Features:</p>
+                        <ul>
+                            <li>Password to Chemical Formula Conversion</li>
+                            <li>Interactive Periodic Table Integration</li>
+                            <li>Educational Component: Learn chemical symbols and formulas</li>
+                            <li>Secure Encoding Algorithm</li>
+                        </ul>
+                        <p>Technologies Used: Java, GUI Framework, Chemistry Database</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
